@@ -11,6 +11,8 @@ windows /MacOs-Linux
 -  `source .venv/source/activate`
 
 ## installation des bibliothèques
+- `pip install fastapi uvicorn loguru pydantic requests streamlit`
+- `pip freeze > requirements.txt`
 
 ou directement : 
 - `pip install -r requierements.txt`
@@ -19,13 +21,13 @@ ou directement :
 ## https://fastapi.tiangolo.com/
 
 ## run server uvicorn :
-- `(uvicorn main:app --host 127.0.0.1 --port 9000 --reload`
+- `(uvicorn main:app --host 127.0.0.1 --port 8000 --reload`
 
 ## Afficher la doc : 
-http://127.0.0.1:9000/docs
+- `http://127.0.0.1:8000/docs`
 
 
-## lancer le serveur streamlit:
+## lancer le client streamlit:
 `streamlit run ./pages/0_requests.py`
 
 => https://github.com/gcortier/
