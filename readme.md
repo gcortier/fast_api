@@ -30,4 +30,4 @@ ou directement :
 ## lancer le client streamlit:
 `streamlit run ./pages/0_requests.py`
 
-=> https://github.com/gcortier/
+=> https://github.com/gcortier/fast_api
